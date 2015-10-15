@@ -1,5 +1,7 @@
 ﻿/// <reference path="../typings/underscore/underscore.d.ts" />
 /// <reference path="../typings/knockout/knockout.d.ts" />
+
+// Teste!
 module Test {
     var array = _.uniq([
         { name: "oi1", id: 1 },

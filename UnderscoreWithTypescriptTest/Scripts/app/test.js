@@ -1,5 +1,6 @@
 /// <reference path="../typings/underscore/underscore.d.ts" />
 /// <reference path="../typings/knockout/knockout.d.ts" />
+// Teste!
 var Test;
 (function (Test) {
     var array = _.uniq([
@@ -15,4 +16,3 @@ var Test;
     };
     console.log(ko.mapping.toJSON(objectWithDate));
 })(Test || (Test = {}));
-//# sourceMappingURL=test.js.map
