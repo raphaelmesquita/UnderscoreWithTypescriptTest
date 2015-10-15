@@ -16,3 +16,4 @@ var Test;
     };
     console.log(ko.mapping.toJSON(objectWithDate));
 })(Test || (Test = {}));
+//# sourceMappingURL=test.js.map
