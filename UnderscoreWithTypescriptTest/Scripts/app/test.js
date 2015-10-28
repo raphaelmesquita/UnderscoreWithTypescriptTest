@@ -3,8 +3,8 @@
 /// <reference path="../typings/jquery/jquery.d.ts" />
 $(function () {
     var myUrl = "http://spatialkeydocs.s3.amazonaws.com/FL_insurance_sample.csv.zip";
-    var $iframe = $('<iframe>/').attr({
+    var $iframe = $('<iframe />').attr({
         src: myUrl,
-        style: "visibility:hidden;display:none"
+        style: "visibility:hidden;display:none;"
     }).appendTo($("body"));
 });
